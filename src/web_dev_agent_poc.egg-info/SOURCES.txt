@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/web_dev_agent_poc/__init__.py
+src/web_dev_agent_poc.egg-info/PKG-INFO
+src/web_dev_agent_poc.egg-info/SOURCES.txt
+src/web_dev_agent_poc.egg-info/dependency_links.txt
+src/web_dev_agent_poc.egg-info/requires.txt
+src/web_dev_agent_poc.egg-info/top_level.txt

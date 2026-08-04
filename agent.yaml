@@ -1,0 +1,16 @@
+name: web-dev-agent
+version: 0.1.0
+namespace: web-dev-poc
+model: ark/deepseek-v4-flash
+temperature: 0.7
+prompt_version: v1.0
+tools_dir: tools
+auto_discover_tools: true
+graph_entry: graphs.main:app
+engine_mode: engine
+input_schema:
+- name: requirement
+  type: text
+  label: "\u9875\u9762\u9700\u6c42"
+  required: true
+  description: "\u7528\u81ea\u7136\u8bed\u8a00\u63cf\u8ff0\u8981\u5f00\u53d1\u7684 Web \u9875\u9762"
