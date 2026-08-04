@@ -1,5 +1,5 @@
 name: web-dev-agent
-version: 0.1.1
+version: 0.1.2
 namespace: web-dev-poc
 model: ark/deepseek-v4-flash
 temperature: 0.7
