@@ -1,11 +1,20 @@
 [project]
 name = "web-dev-agent-poc"
-version = "0.1.0"
+version = "0.1.1"
 description = "Phase 1 POC: single development agent for web pages"
 requires-python = ">=3.11"
 dependencies = [
     "yineng-factory>=0.3.15",
 ]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src"]
 
 [build-system]
 requires = ["setuptools>=61.0"]
