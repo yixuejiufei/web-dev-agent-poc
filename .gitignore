@@ -6,3 +6,6 @@ outputs/
 *.egg-info/
 build/
 dist/
+
+# 本地部署配置（含密钥），不提交
+settings.yaml

@@ -1,0 +1,13 @@
+id: web-dev-workflow
+name: Web Dev Workflow
+description: 从需求到 HTML 产物的简单工作流
+version: "0.1.1"
+namespace: web-dev-agent-poc
+
+initial_state: web-dev
+
+nodes:
+  web-dev:
+    agent: agent.yaml
+    next:
+      default: __end__
